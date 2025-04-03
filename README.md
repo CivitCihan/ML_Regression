@@ -2,6 +2,10 @@
 
 This repository contains various regression machine learning models implemented in Python. It serves as a collection of different approaches to solving regression problems using various algorithms and techniques.
 
+## Follow
+
+### You can follow the project in order of commit
+
 ## Features
 - Implementation of multiple regression algorithms.
 - Performance evaluation using various metrics.
@@ -11,11 +15,13 @@ This repository contains various regression machine learning models implemented 
 
 ## Algorithms Used
 - Linear Regression
-- Decision Tree Regressor
+- Decision Tree Regressor (CART)
 - K-Nearest Neighbors (KNN) Regressor
 - Multi-Layer Perceptron (MLP) Regressor
 - Random Forest Regressor
-- Gradient Boosting Regressor
+- Gradient Boosting Regressor (GBM)
+- LightGBM Regressor
+- XGBoost Regressor
 - Support Vector Regressor (SVR)
 
 ## Dependencies
@@ -33,12 +39,14 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.neural_network import MLPRegressor
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.svm import SVR
+import lightgbm as lgb
+import xgboost as xgb
 ```
 
 ## Installation
 To use the models, install the required dependencies using pip:
 ```bash
-pip install numpy matplotlib pandas scikit-learn
+pip install numpy matplotlib pandas scikit-learn lightgbm xgboost
 ```
 
 ## Usage
