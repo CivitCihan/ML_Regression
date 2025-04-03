@@ -52,11 +52,11 @@ pip install numpy matplotlib pandas scikit-learn lightgbm xgboost
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/regression-ml.git
+   git clone https://github.com/CivitCihan/ML_Regression.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd regression-ml
+   cd ML_Regression
    ```
 3. Run the desired script to train and evaluate models.
 
